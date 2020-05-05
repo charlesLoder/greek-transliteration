@@ -1,0 +1,164 @@
+type Dict = { [key: string]: string };
+
+export const transliterateMap: Dict = {
+  // # Greek-Coptic
+  //   ## Archaic letters
+  Ͱ: "", // GREEK CAPITAL LETTER HETA (U+0370)
+  ͱ: "", // GREEK SMALL LETTER HETA (U+0371)
+  Ͳ: "", // GREEK CAPITAL LETTER ARCHAIC SAMPI (U+0372)
+  ͳ: "", // GREEK SMALL LETTER ARCHAIC SAMPI (U+0373)
+
+  //   ## Numeral signs
+  ʹ: "", // GREEK NUMERAL SIGN (U+0374)
+  "\u{0375}": "", // GREEK LOWER NUMERAL SIGN (U+0375)
+
+  //   ## Archaic letters
+  Ͷ: "", // GREEK CAPITAL LETTER PAMPHYLIAN DIGAMMA (U+0376)
+  ͷ: "", // GREEK SMALL LETTER PAMPHYLIAN DIGAMMA (U+0377)
+
+  //   ## Iota subscript
+  ͺ: "", // GREEK YPOGEGRAMMENI (U+037A)
+
+  //   ## Lowercase of editorial symbols
+  ͻ: "", // GREEK SMALL REVERSED LUNATE SIGMA SYMBOL (U+037B)
+  ͼ: "", // GREEK SMALL DOTTED LUNATE SIGMA SYMBOL (U+037C)
+  ͽ: "", // GREEK SMALL REVERSED DOTTED LUNATE SIGMA SYMBOL (U+037D)
+
+  //   ## Additional letter
+  // Ϳ: "", // GREEK CAPITAL LETTER YOT (U+037F)
+
+  // ##  Capitals
+  Α: "a", // GREEK CAPITAL LETTER ALPHA (U+0391)
+  Β: "b", // GREEK CAPITAL LETTER BETA (U+0392)
+  Γ: "g", // GREEK CAPITAL LETTER GAMMA (U+0393)
+  Δ: "d", // GREEK CAPITAL LETTER DELTA (U+0394)
+  Ε: "e", // GREEK CAPITAL LETTER EPSILON (U+0395)
+  Ζ: "z", // GREEK CAPITAL LETTER ZETA (U+0396)
+  Η: "ē", // GREEK CAPITAL LETTER ETA (U+0397)
+  Θ: "th", // GREEK CAPITAL LETTER THETA (U+0398)
+  Ι: "i", // GREEK CAPITAL LETTER IOTA (U+0399)
+  Κ: "k", // GREEK CAPITAL LETTER KAPPA (U+039A)
+  Λ: "l", // GREEK CAPITAL LETTER LAMDA (U+039B)
+  Μ: "m", // GREEK CAPITAL LETTER MU (U+039C)
+  Ν: "n", // GREEK CAPITAL LETTER NU (U+039D)
+  Ξ: "x", // GREEK CAPITAL LETTER XI (U+039E)
+  Ο: "o", // GREEK CAPITAL LETTER OMICRON (U+039F)
+  Π: "p", // GREEK CAPITAL LETTER PI (U+03A0)
+  Ρ: "r", // GREEK CAPITAL LETTER RHO (U+03A1)
+  Σ: "s", // GREEK CAPITAL LETTER SIGMA (U+03A3)
+  Τ: "t", // GREEK CAPITAL LETTER TAU (U+03A4)
+  Υ: "y", // GREEK CAPITAL LETTER UPSILON (U+03A5)
+  Φ: "ph", // GREEK CAPITAL LETTER PHI (U+03A6)
+  Χ: "ch", // GREEK CAPITAL LETTER CHI (U+03A7)
+  Ψ: "ps", // GREEK CAPITAL LETTER PSI (U+03A8)
+  Ω: "ō", // GREEK CAPITAL LETTER OMEGA (U+03A9)
+
+  //   ## Lowercase
+  α: "a", // GREEK SMALL LETTER ALPHA (U+03B1)
+  β: "b", // GREEK SMALL LETTER BETA (U+03B2)
+  γ: "g", // GREEK SMALL LETTER GAMMA (U+03B3)
+  δ: "d", // GREEK SMALL LETTER DELTA (U+03B4)
+  ε: "e", // GREEK SMALL LETTER EPSILON (U+03B5)
+  ζ: "z", // GREEK SMALL LETTER ZETA (U+03B6)
+  η: "ē", // GREEK SMALL LETTER ETA (U+03B7)
+  θ: "th", // GREEK SMALL LETTER THETA (U+03B8)
+  ι: "i", // GREEK SMALL LETTER IOTA (U+03B9)
+  κ: "k", // GREEK SMALL LETTER KAPPA (U+03BA)
+  λ: "l", // GREEK SMALL LETTER LAMDA (U+03BB)
+  μ: "m", // GREEK SMALL LETTER MU (U+03BC)
+  ν: "n", // GREEK SMALL LETTER NU (U+03BD)
+  ξ: "x", // GREEK SMALL LETTER XI (U+03BE)
+  ο: "o", // GREEK SMALL LETTER OMICRON (U+03BF)
+  π: "p", // GREEK SMALL LETTER PI (U+03C0)
+  ρ: "r", // GREEK SMALL LETTER RHO (U+03C1)
+  ς: "s", // GREEK SMALL LETTER FINAL SIGMA (U+03C2)
+  σ: "s", // GREEK SMALL LETTER SIGMA (U+03C3)
+  τ: "t", // GREEK SMALL LETTER TAU (U+03C4)
+  υ: "y", // GREEK SMALL LETTER UPSILON (U+03C5)
+  φ: "ph", // GREEK SMALL LETTER PHI (U+03C6)
+  χ: "ch", // GREEK SMALL LETTER CHI (U+03C7)
+  ψ: "ps", // GREEK SMALL LETTER PSI (U+03C8)
+  ω: "ō", // GREEK SMALL LETTER OMEGA (U+03C9)
+
+  //  ## Variant letterforms
+  Ϗ: "", // GREEK CAPITAL KAI SYMBOL (U+03CF)
+  ϐ: "", // GREEK BETA SYMBOL (U+03D0)
+  ϑ: "", // GREEK THETA SYMBOL (U+03D1)
+  ϒ: "", // GREEK UPSILON WITH HOOK SYMBOL (U+03D2)
+  ϓ: "", // GREEK UPSILON WITH ACUTE AND HOOK SYMBOL (U+03D3)
+  ϔ: "", // GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL (U+03D4)
+  ϕ: "", // GREEK PHI SYMBOL (U+03D5)
+  ϖ: "", // GREEK PI SYMBOL (U+03D6)
+  ϗ: "", // GREEK KAI SYMBOL (U+03D7)
+
+  //   ## Archaic letters
+  Ϙ: "", // GREEK LETTER ARCHAIC KOPPA (U+03D8)
+  ϙ: "", // GREEK SMALL LETTER ARCHAIC KOPPA (U+03D9)
+  Ϛ: "", // GREEK LETTER STIGMA (U+03DA)
+  ϛ: "", // GREEK SMALL LETTER STIGMA (U+03DB)
+  Ϝ: "", // GREEK LETTER DIGAMMA (U+03DC)
+  ϝ: "", // GREEK SMALL LETTER DIGAMMA (U+03DD)
+  Ϟ: "", // GREEK LETTER KOPPA (U+03DE)
+  ϟ: "", // GREEK SMALL LETTER KOPPA (U+03DF)
+  Ϡ: "", // GREEK LETTER SAMPI (U+03E0)
+  ϡ: "", // GREEK SMALL LETTER SAMPI (U+03E1)
+
+  //   ## Coptic letters derived from Demotic
+  Ϣ: "", // COPTIC CAPITAL LETTER SHEI (U+03E2)
+  ϣ: "", // COPTIC SMALL LETTER SHEI (U+03E3)
+  Ϥ: "", // COPTIC CAPITAL LETTER FEI (U+03E4)
+  ϥ: "", // COPTIC SMALL LETTER FEI (U+03E5)
+  Ϧ: "", // COPTIC CAPITAL LETTER KHEI (U+03E6)
+  ϧ: "", // COPTIC SMALL LETTER KHEI (U+03E7)
+  Ϩ: "", // COPTIC CAPITAL LETTER HORI (U+03E8)
+  ϩ: "", // COPTIC SMALL LETTER HORI (U+03E9)
+  Ϫ: "", // COPTIC CAPITAL LETTER GANGIA (U+03EA)
+  ϫ: "", // COPTIC SMALL LETTER GANGIA (U+03EB)
+  Ϭ: "", // COPTIC CAPITAL LETTER SHIMA (U+03EC)
+  ϭ: "", // COPTIC SMALL LETTER SHIMA (U+03ED)
+  Ϯ: "", // COPTIC CAPITAL LETTER DEI (U+03EE)
+  ϯ: "", // COPTIC SMALL LETTER DEI (U+03EF)
+
+  //   ## Variant letterforms
+  ϰ: "", // GREEK KAPPA SYMBOL (U+03F0)
+  ϱ: "", // GREEK RHO SYMBOL (U+03F1)
+  ϲ: "", // GREEK LUNATE SIGMA SYMBOL (U+03F2)
+
+  //   ## Additional letter
+  ϳ: "", // GREEK LETTER YOT (U+03F3)
+
+  // ## Variant letterforms and symbols
+  ϴ: "", // GREEK CAPITAL THETA SYMBOL (U+03F4)
+  ϵ: "", // GREEK LUNATE EPSILON SYMBOL (U+03F5)
+  "\u{03F6}": "", // GREEK REVERSED LUNATE EPSILON SYMBOL (U+03F6)
+
+  // ## Additional archaic letters for Bactrian
+  Ϸ: "", // GREEK CAPITAL LETTER SHO (U+03F7)
+  ϸ: "", // GREEK SMALL LETTER SHO (U+03F8)
+
+  // ## Variant letterform
+  Ϲ: "", // GREEK CAPITAL LUNATE SIGMA SYMBOL (U+03F9)
+
+  // ## Archaic letters
+  Ϻ: "", // GREEK CAPITAL LETTER SAN (U+03FA)
+  ϻ: "", // GREEK SMALL LETTER SAN (U+03FB)
+
+  // ## Symbol
+  ϼ: "", // GREEK RHO WITH STROKE SYMBOL (U+03FC)
+
+  // ## Editorial symbols
+  Ͻ: "", // GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL (U+03FD)
+  Ͼ: "", // GREEK CAPITAL DOTTED LUNATE SIGMA SYMBOL (U+03FE)
+  Ͽ: "", // GREEK CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL (U+03FF)
+
+  // Characters from NFKD normalization
+  "\u{00B7}": "", // GREEK ANO TELEIA (U+0387) > MIDDLE DOT
+  "\u{0300}": "", // VARIA > COMBINING GRAVE ACCENT
+  "\u{0301}": "", // TONOS/OXIA > COMBINING ACUTE ACCENT
+  "\u{0304}": "", // MACRON > COMBINING MACRON
+  "\u{0306}": "", // VRACHY > COMBINING BREVE
+  "\u{0313}": "", // PSILI > COMBINING COMMA ABOVE
+  //   "\u{0314}": "\u{0314}", // DASIA (i.e. rough breathing mark) > COMBINING REVERSED COMMA ABOVE
+  "\u{0342}": "", // PERISPOMENI > COMBINING GREEK PERISPOMENI
+  "\u{0345}": "" // YPOGEGRAMMENI > COMBINING GREEK YPOGEGRAMMENI
+};
