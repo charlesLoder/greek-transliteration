@@ -51,7 +51,7 @@ MIT
 
 Use it live at [charlesLoder.github.io/greekTransliteration](https://charlesloder.github.io/greekTransliteration/index.html)
 
-## Changelong
+## Changelog
 
 ## Contributing
 
