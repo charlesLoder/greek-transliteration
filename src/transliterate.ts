@@ -2,10 +2,10 @@ import { titForTat } from "./titForTat";
 import { testEach } from "./testEach";
 
 export const transliterate = (text: string) => {
-  let normalize = text.normalize("NFKD");
-  let titTat = titForTat(normalize);
-  let array = titTat.split(" ");
-  let modArray = testEach(array);
-  let transliteration = modArray.join(" ");
+  const normalize = text.normalize("NFKD");
+  const titTat = titForTat(normalize);
+  const array = titTat.split(" ");
+  const modArray = testEach(array);
+  const transliteration = modArray.join(" ");
   return transliteration;
 };

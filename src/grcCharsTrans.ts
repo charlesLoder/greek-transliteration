@@ -1,5 +1,6 @@
 type Dict = { [key: string]: string };
 
+/* eslint @typescript-eslint/naming-convention: off */
 export const transliterateMap: Dict = {
   // # Greek-Coptic
   //   ## Archaic letters

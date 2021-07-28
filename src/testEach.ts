@@ -4,7 +4,7 @@ const changeElementSubstr = (input: string, index: number, join: string) => {
   return input.substring(0, index - 1) + join + input.substring(index - 1, index) + input.substring(index + 1);
 };
 
-const rules = (array: Array<string>) => {
+const rules = (array: string[]) => {
   return array.map((element: string) => {
     // tests for gg > ng
     if (/gg/.test(element)) {
@@ -38,7 +38,7 @@ const rules = (array: Array<string>) => {
 
     // test DIAERESIS to avoid dipthong
     if (/\u{0308}/u.test(element)) {
-      let pos = element.indexOf("\u{0308}");
+      const pos = element.indexOf("\u{0308}");
       element = changeElementSubstr(element, pos, "\u{0308}");
     }
 
@@ -84,6 +84,6 @@ const rules = (array: Array<string>) => {
   }); // map
 };
 
-export const testEach = (array: Array<string>) => {
+export const testEach = (array: string[]) => {
   return rules(array);
 };
