@@ -84,6 +84,4 @@ const rules = (array: string[]) => {
   }); // map
 };
 
-export const testEach = (array: string[]) => {
-  return rules(array);
-};
+export const testEach = (array: string[]) => rules(array);
