@@ -36,6 +36,11 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jsdoc": "^36.0.6",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
     "jest": "^27.0.6",
     "npm-check-updates": "^11.8.3",
     "prettier": "^2.3.2",
