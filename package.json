@@ -8,7 +8,7 @@
     "build": "tsc",
     "test": "clear && jest",
     "format": "prettier --write 'src/**/*.ts' 'test/**/*.ts'",
-    "lint": "tslint -p tsconfig.json",
+    "lint": "eslint .",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
