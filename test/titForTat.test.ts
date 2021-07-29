@@ -2,9 +2,8 @@ import { titForTat } from "../src/titForTat";
 
 describe("Greek and Coptic block", () => {
   test("standard capitals", () => {
-    const capitals = "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ";
-    // .normalize("NFKD");
-    expect(titForTat(capitals)).toEqual("abgdezēthiklmnxoprstyphchpsō");
+    const capitals = "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ".normalize("NFKD");
+    expect(titForTat(capitals)).toEqual("ABGDEZĒTHIKLMNXOPRSTYPHCHPSŌ");
   });
 
   test("standard lowercase", () => {
@@ -15,26 +14,26 @@ describe("Greek and Coptic block", () => {
   test("characters with only tonos", () => {
     // tonos (0384) by itself decomposes into 'space' + '\u{0301}'
     const withTonos = "\u{0384}ΆΈΉΊΌΎΏάέήίόύώ".normalize("NFKD");
-    expect(titForTat(withTonos)).toEqual(" aeēioyōaeēioyō");
+    expect(titForTat(withTonos)).toEqual(" AEĒIOYŌaeēioyō");
   });
 
   test("characters with DIALYTIKA, optionally tonos", () => {
     // GREEK DIALYTIKA TONOS (U+0385) decomposes into 'space' + '\u{0308}' COMBINING DIAERESIS + '\u{0301}'
     const withDia = "\u{0385}ΐΪΫΰϊϋ".normalize("NFKD");
-    expect(titForTat(withDia)).toEqual(" \u{0308}i\u{0308}i\u{0308}y\u{0308}y\u{0308}i\u{0308}y\u{0308}");
+    expect(titForTat(withDia)).toEqual(" \u{0308}i\u{0308}I\u{0308}Y\u{0308}y\u{0308}i\u{0308}y\u{0308}");
   });
 });
 
 describe("Greek Extended block", () => {
   test("with smooth breathing mark (PSILI)", () => {
     const withPsili = "ἀἐἠἰὀὐὠἈἘἨἸὈὨ".normalize("NFKD");
-    expect(titForTat(withPsili)).toEqual("aeēioyōaeēioō");
+    expect(titForTat(withPsili)).toEqual("aeēioyōAEĒIOŌ");
   });
 
   test("with rough breathing mark (DASIA)", () => {
     const withDasia = "ἁἑἡἱὁὑὡἉἙἩἹὉὙὩ".normalize("NFKD");
     expect(titForTat(withDasia)).toEqual(
-      "a\u{0314}e\u{0314}ē\u{0314}i\u{0314}o\u{0314}y\u{0314}ō\u{0314}a\u{0314}e\u{0314}ē\u{0314}i\u{0314}o\u{0314}y\u{0314}ō\u{0314}"
+      "a\u{0314}e\u{0314}ē\u{0314}i\u{0314}o\u{0314}y\u{0314}ō\u{0314}A\u{0314}E\u{0314}Ē\u{0314}I\u{0314}O\u{0314}Y\u{0314}Ō\u{0314}"
     );
   });
 

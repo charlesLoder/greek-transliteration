@@ -32,4 +32,12 @@ describe("Koine Greek", () => {
   test("mixed with latin characters", () => {
     expect(transliterate("v.3 ... τοῦ λεγομένου Καϊάφα")).toEqual("v.3 ... tou legomenou kaiapha");
   });
+
+  test("preserve capital: false", () => {
+    expect(transliterate("Αλφα")).toEqual("alpha");
+  });
+
+  test("preserve capital", () => {
+    expect(transliterate("Αλφα", { preserveCapitals: true })).toEqual("Alpha");
+  });
 });
