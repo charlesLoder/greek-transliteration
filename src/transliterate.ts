@@ -1,10 +1,16 @@
 import { titForTat } from "./titForTat";
 import { testEach } from "./testEach";
 
-export interface Options {
+interface Options {
   preserveCapitals: boolean;
 }
 
+/**
+ *
+ * @param {string} text
+ * @param {Options} options
+ * @returns {string} tansliteration of text
+ */
 export const transliterate = (text: string, options: Options = { preserveCapitals: false }) => {
   const normalize = text.normalize("NFKD");
   const textCase = options.preserveCapitals ? normalize : normalize.toLowerCase();
