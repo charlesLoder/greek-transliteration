@@ -1,6 +1,6 @@
 {
   "name": "greek-transliteration",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a package for transliterating Greek according to SBL guidelines",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
