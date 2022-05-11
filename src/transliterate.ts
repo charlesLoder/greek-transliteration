@@ -3,6 +3,7 @@ import { Schema, SBL } from "./schema";
 
 /**
  * transliterates Greek text according to Schema
+ *
  * @param {string} text - Greek text to be transliterated
  * @param {Schema} schema - if `undefined`, defaults to SBL Academic
  * @returns {string} transliteration of text

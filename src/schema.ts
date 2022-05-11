@@ -1,6 +1,7 @@
 interface SchemaOptions {
   /**
    * GREEK CAPITAL LETTER ALPHA Α
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -9,6 +10,7 @@ interface SchemaOptions {
   CAPITAL_ALPHA?: string;
   /**
    * GREEK CAPITAL LETTER BETA Β
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -17,6 +19,7 @@ interface SchemaOptions {
   CAPITAL_BETA?: string;
   /**
    * GREEK CAPITAL LETTER GAMMA Γ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -25,6 +28,7 @@ interface SchemaOptions {
   CAPITAL_GAMMA?: string;
   /**
    * GREEK CAPITAL LETTER DELTA Δ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -33,6 +37,7 @@ interface SchemaOptions {
   CAPITAL_DELTA?: string;
   /**
    * GREEK CAPITAL LETTER EPSILON Ε
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -41,6 +46,7 @@ interface SchemaOptions {
   CAPITAL_EPSILON?: string;
   /**
    * GREEK CAPITAL LETTER ZETA Ζ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -49,6 +55,7 @@ interface SchemaOptions {
   CAPITAL_ZETA?: string;
   /**
    * GREEK CAPITAL LETTER ETA Η
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -57,6 +64,7 @@ interface SchemaOptions {
   CAPITAL_ETA?: string;
   /**
    * GREEK CAPITAL LETTER THETA Θ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -65,6 +73,7 @@ interface SchemaOptions {
   CAPITAL_THETA?: string;
   /**
    * GREEK CAPITAL LETTER IOTA Ι
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -73,6 +82,7 @@ interface SchemaOptions {
   CAPITAL_IOTA?: string;
   /**
    * GREEK CAPITAL LETTER KAPPA Κ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -81,6 +91,7 @@ interface SchemaOptions {
   CAPITAL_KAPPA?: string;
   /**
    * GREEK CAPITAL LETTER LAMDA Λ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -89,6 +100,7 @@ interface SchemaOptions {
   CAPITAL_LAMDA?: string;
   /**
    * GREEK CAPITAL LETTER MU Μ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -97,6 +109,7 @@ interface SchemaOptions {
   CAPITAL_MU?: string;
   /**
    * GREEK CAPITAL LETTER NU Ν
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -105,6 +118,7 @@ interface SchemaOptions {
   CAPITAL_NU?: string;
   /**
    * GREEK CAPITAL LETTER XI Ξ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -113,6 +127,7 @@ interface SchemaOptions {
   CAPITAL_XI?: string;
   /**
    * GREEK CAPITAL LETTER OMICRON Ο
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -121,6 +136,7 @@ interface SchemaOptions {
   CAPITAL_OMICRON?: string;
   /**
    * GREEK CAPITAL LETTER PI Π
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form; if false, defaults to small form
    * @example
@@ -129,6 +145,7 @@ interface SchemaOptions {
   CAPITAL_PI?: string;
   /**
    * GREEK CAPITAL LETTER RHO Ρ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -137,6 +154,7 @@ interface SchemaOptions {
   CAPITAL_RHO?: string;
   /**
    * GREEK CAPITAL LETTER SIGMA Σ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -145,6 +163,7 @@ interface SchemaOptions {
   CAPITAL_SIGMA?: string;
   /**
    * GREEK CAPITAL LETTER TAU Τ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -153,6 +172,7 @@ interface SchemaOptions {
   CAPITAL_TAU?: string;
   /**
    * GREEK CAPITAL LETTER UPSILON Υ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -161,6 +181,7 @@ interface SchemaOptions {
   CAPITAL_UPSILON?: string;
   /**
    * GREEK CAPITAL LETTER PHI Φ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -169,6 +190,7 @@ interface SchemaOptions {
   CAPITAL_PHI?: string;
   /**
    * GREEK CAPITAL LETTER CHI Χ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -177,6 +199,7 @@ interface SchemaOptions {
   CAPITAL_CHI?: string;
   /**
    * GREEK CAPITAL LETTER PSI Ψ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -185,6 +208,7 @@ interface SchemaOptions {
   CAPITAL_PSI?: string;
   /**
    * GREEK CAPITAL LETTER OMEGA Ω
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -194,156 +218,182 @@ interface SchemaOptions {
 
   /**
    * GREEK SMALL LETTER ALPHA α
+   *
    * @example
    * "a"
    */
   SMALL_ALPHA: string;
   /**
    * GREEK SMALL LETTER BETA β
+   *
    * @example
    * "b"
    */
   SMALL_BETA: string;
   /**
    * GREEK SMALL LETTER GAMMA γ
+   *
    * @example
    * "g"
    */
   SMALL_GAMMA: string;
   /**
    * GREEK SMALL LETTER DELTA δ
+   *
    * @example
    * "d"
    */
   SMALL_DELTA: string;
   /**
    * GREEK SMALL LETTER EPSILON ε
+   *
    * @example
    * "e"
    */
   SMALL_EPSILON: string;
   /**
    * GREEK SMALL LETTER ZETA ζ
+   *
    * @example
    * "z"
    */
   SMALL_ZETA: string;
   /**
    * GREEK SMALL LETTER ETA η
+   *
    * @example
    * "ē"
    */
   SMALL_ETA: string;
   /**
    * GREEK SMALL LETTER THETA θ
+   *
    * @example
    * "th"
    */
   SMALL_THETA: string;
   /**
    * GREEK SMALL LETTER IOTA ι
+   *
    * @example
    * "i"
    */
   SMALL_IOTA: string;
   /**
    * GREEK SMALL LETTER KAPPA κ
+   *
    * @example
    * "k"
    */
   SMALL_KAPPA: string;
   /**
    * GREEK SMALL LETTER LAMDA λ
+   *
    * @example
    * "l"
    */
   SMALL_LAMDA: string;
   /**
    * GREEK SMALL LETTER MU μ
+   *
    * @example
    * "m"
    */
   SMALL_MU: string;
   /**
    * GREEK SMALL LETTER NU ν
+   *
    * @example
    * "n"
    */
   SMALL_NU: string;
   /**
    * GREEK SMALL LETTER XI ξ
+   *
    * @example
    * "x"
    */
   SMALL_XI: string;
   /**
    * GREEK SMALL LETTER OMICRON ο
+   *
    * @example
    * "o"
    */
   SMALL_OMICRON: string;
   /**
    * GREEK SMALL LETTER PI π
+   *
    * @example
    * "p"
    */
   SMALL_PI: string;
   /**
    * GREEK SMALL LETTER RHO ρ
+   *
    * @example
    * "r"
    */
   SMALL_RHO: string;
   /**
    * GREEK SMALL LETTER FINAL SIGMA ς
+   *
    * @example
    * "s"
    */
   SMALL_FINAL_SIGMA: string;
   /**
    * GREEK SMALL LETTER SIGMA σ
+   *
    * @example
    * "s"
    */
   SMALL_SIGMA: string;
   /**
    * GREEK SMALL LETTER TAU τ
+   *
    * @example
    * "t"
    */
   SMALL_TAU: string;
   /**
    * GREEK SMALL LETTER UPSILON υ
+   *
    * @example
    * "y"
    */
   SMALL_UPSILON: string;
   /**
    * GREEK SMALL LETTER PHI φ
+   *
    * @example
    * "ph"
    */
   SMALL_PHI: string;
   /**
    * GREEK SMALL LETTER CHI χ
+   *
    * @example
    * "ch"
    */
   SMALL_CHI: string;
   /**
    * GREEK SMALL LETTER PSI ψ
+   *
    * @example
    * "ps"
    */
   SMALL_PSI: string;
   /**
    * GREEK SMALL LETTER OMEGA ω
+   *
    * @example
    * "ō"
    */
   SMALL_OMEGA: string;
   /**
    * GREEK SMALL GAMMA Nasal
+   *
    * @remarks
    * a GAMMA followed by GAMMA, KAPPA, XI, or CHI (e.g. γγ, γκ, γξ, γχ)
    * @example
@@ -352,6 +402,7 @@ interface SchemaOptions {
   SMALL_GAMMA_NASAL: string;
   /**
    * GREEK CAPTIAL GAMMA Nasal
+   *
    * @remarkd
    * a GAMMA followed by GAMMA, KAPPA, XI, or CHI (e.g. ΓΓ, ΓΚ, ΓΞ, ΓΧ)
    * @remarks
@@ -362,12 +413,14 @@ interface SchemaOptions {
   CAPITAL_GAMMA_NASAL?: string;
   /**
    * GREEK SMALL RHO followed by RHO ρρ
+   *
    * @example
    * "rrh"
    */
   SMALL_DOUBLE_RHO: string;
   /**
    * GREEK CAPITAL RHO followed by RHO ΡΡ
+   *
    * @remarks
    * if `undefined`, defaults to small form, and if `preserveCapitals` true, defaults to uppercase of small form
    * @example
@@ -376,6 +429,7 @@ interface SchemaOptions {
   CAPITAL_DOUBLE_RHO?: string;
   /**
    * GREEK SMALL UPSILON in a diphthong υ
+   *
    * @remarks
    * when a upsilon is used in a diphthong (e.g. αυ, ευ, ηυ, ου, υι)
    * @example
@@ -384,6 +438,7 @@ interface SchemaOptions {
   SMALL_UPSILON_DIPTHONG: string;
   /**
    * GREEK CAPITAL UPSILON in a diphthong Υ
+   *
    * @remarks
    * when a upsilon is used in a diphthong (e.g. ΑΥ, ΕΥ, ΗΥ, ΟΥ, ΥΙ)
    * @remarks
@@ -394,6 +449,7 @@ interface SchemaOptions {
   CAPITAL_UPSILON_DIPTHONG?: string;
   /**
    * GREEK DASIA  ̔
+   *
    * @remarks
    * also called U+0314 COMBINING REVERSED COMMA ABOVE
    * @example
@@ -402,12 +458,14 @@ interface SchemaOptions {
   ROUGH_BREATHING_MARK: string;
   /**
    * if false, converts all characters to lowercase
+   *
    */
   preserveCapitals?: boolean;
 }
 
 /**
  * class for defining a schema for transliteration
+ *
  */
 export class Schema {
   CAPITAL_ALPHA: string;
@@ -534,6 +592,7 @@ export class Schema {
 
 /**
  * defaul SBL Academic schema
+ *
  */
 export class SBL extends Schema {
   constructor(schema: Partial<Schema>) {

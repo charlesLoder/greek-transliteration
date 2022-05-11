@@ -60,7 +60,7 @@ module.exports = {
         }
       }
     ],
-    "@typescript-eslint/naming-convention": "error",
+    "@typescript-eslint/naming-convention": "off",
     "@typescript-eslint/no-empty-function": "error",
     "@typescript-eslint/no-empty-interface": "error",
     "@typescript-eslint/no-explicit-any": "error",
@@ -118,7 +118,7 @@ module.exports = {
     "jsdoc/check-indentation": "error",
     "jsdoc/newline-after-description": "error",
     "linebreak-style": "off",
-    "max-classes-per-file": ["error", 1],
+    "max-classes-per-file": "off",
     "max-len": "off",
     "new-parens": "off",
     "newline-per-chained-call": "off",
